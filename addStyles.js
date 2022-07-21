@@ -37,6 +37,10 @@ function addClasses(button){
         btnOpClass.split(" ").forEach((cls) => button.classList.add(cls));
     } else if (button.classList.value === "clear"){
         btnClearClass.split(" ").forEach((cls) => button.classList.add(cls));
+    } else if (button.classList.value === "equal"){
+        btnEqClass.split(" ").forEach((cls) => button.classList.add(cls));
+    } else if (button.classList.value === "decimal"){
+        btnDecClass.split(" ").forEach((cls) => button.classList.add(cls));
     } 
 
     const baseClass = "flex w-12 h-12 justify-center items-center m-1 font-bold py-2 px-2 border hover:border-transparent rounded text-white border-2 text-2xl";
